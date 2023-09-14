@@ -30,12 +30,12 @@ function App() {
   return (
     <div className="max-[1640px]:">
     <Navbar/>
-    <main className="shadow-cyan-500/50"> 
+    <main className="shadow-cyan-500/50 pt-10"> 
       <h1 className="text-5xl font-bold underline text-center flex flex-col">
       Generation Thialand
       React-Assesment
     </h1>
-    <div>
+    <div className="pt-6">
       <Button/>
     </div>
     </main>
